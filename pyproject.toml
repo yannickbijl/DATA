@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DATA"
+version = "0.0.1"
+authors = [
+  { name="Yannick Bijl", email="yannick.bijl@gmail.com" },
+]
+description = "DATA: Diagnostic Assessment Testing Automation"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yannickbijl/DATA"
+Issues = "https://github.com/yannickbijl/DATA/issues"
+
